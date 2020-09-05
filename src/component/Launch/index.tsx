@@ -6,25 +6,22 @@ import CircularProgress from '@material-ui/core/CircularProgress';
 
 interface Props {
     data: {
-        frameborder?: string
-        details?: string
-        is_tentative?: boolean
-        launch_site?: {
-            site_name?: string
+        details: string
+        is_tentative: boolean
+        launch_site: {
+            site_name: string
         }
-        launch_success?: boolean
-        launch_year?: number
-        links?: {
-            flickr_images?: string[]
-            video_link?: string[]
+        launch_success: boolean
+        launch_year: number
+        links: {
+            flickr_images: string[]
+            video_link: string[]
         }
-        mission_id?: string[]
-        mission_name?: string
-        upcoming?: string
-        data?: any
-        
+        mission_id: string[]
+        mission_name: string
+        upcoming: string
     }
-} 
+}
 
 const LaunchContainer = () => {
     const { data, loading, error } = useLaunchesQuery();
