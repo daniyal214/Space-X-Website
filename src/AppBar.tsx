@@ -35,7 +35,7 @@ export default function ButtonAppBar() {
           <Button  variant='contained' style={{background: '#2c3531'}} edge="start" className={classes.menuButton} component={RouterLink} to={`/`}  >
             <Typography variant='h6' style={{color: '#c5c6c7', }}  > SpaceX </Typography>
           </Button>
-          <IconButton   variant='contained'  edge="end" className={classes.menuButton}  >
+          <IconButton edge="end" className={classes.menuButton}  >
             <PersistentDrawerRight />
           </IconButton>
           </div>
