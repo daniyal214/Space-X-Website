@@ -4,6 +4,11 @@ import { useParams } from 'react-router-dom'
 import LaunchDetails from './LaunchDetails';
 import CircularProgress from '@material-ui/core/CircularProgress';
 
+interface Props {
+    data: any
+    LaunchesQuery: any
+}
+
 const LaunchContainer = () => {
 
     const { id } = useParams();

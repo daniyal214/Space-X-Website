@@ -4,6 +4,11 @@ import Launch from './Launch';
 import { GraphQLError } from 'graphql';
 import CircularProgress from '@material-ui/core/CircularProgress';
 
+interface Props {
+    data: any
+    LaunchesQuery: any
+}
+
 const LaunchContainer = () => {
     const { data, loading, error } = useLaunchesQuery();
 

@@ -27,6 +27,7 @@ interface Props {
     upcoming: string
     LaunchesQuery: any
     
+    
 }
 
 const Launch: React.FC<Props> = ({ data }) => {
