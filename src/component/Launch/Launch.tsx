@@ -9,28 +9,28 @@ import 'aos/dist/aos.css';
 
 
 interface Props {
-    data: LaunchesQuery,
-    frameborder: string
-    details: string
-    is_tentative: boolean
-    launch_site: {
-        site_name: string
+    data: {
+        frameborder?: string
+        details?: string
+        is_tentative?: boolean
+        launch_site?: {
+            site_name?: string
+        }
+        launch_success?: boolean
+        launch_year?: number
+        links?: {
+            flickr_images?: string[]
+            video_link?: string[]
+        }
+        mission_id?: string[]
+        mission_name?: string
+        upcoming?: string
+        data?: any
+        
     }
-    launch_success: boolean
-    launch_year: number
-    links: {
-        flickr_images: string[]
-        video_link: string[]
-    }
-    mission_id: string[]
-    mission_name: string
-    upcoming: string
-    LaunchesQuery: any
-    
-    
-}
+} 
 
-const Launch: React.FC<any, Props> = ({ data }) => {
+const Launch: React.FC<Props> = ({ data }) => {
     useEffect(() => {
         Aos.init({ duration: 2000 });
     }, []);
