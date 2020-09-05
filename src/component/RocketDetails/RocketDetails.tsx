@@ -7,7 +7,6 @@ import 'aos/dist/aos.css';
 
 interface Props {
     data: {
-
         active: boolean
         boosters: number
         company: string
@@ -31,10 +30,9 @@ interface Props {
         }
         rocket_id: string
         rocket_name: string
-        rocket_type: string
-        stages: number
         success_rate_pct: number
         __typename: string
+        RocketsQuery: any
 
     }
 }

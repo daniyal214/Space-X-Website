@@ -38,7 +38,7 @@ const RocketDetails: React.FC<Props> = ({ data }) => {
     }
     const url = data?.links.video_link;
     console.log(url)
-    const url2 = url.replace("watch?v=", "embed/");
+    const url2 = (url as string).replace("watch?v=", "embed/");
     console.log(url2)
 
 

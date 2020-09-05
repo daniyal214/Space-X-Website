@@ -29,6 +29,7 @@ interface Props {
         ship_type: string
         weight_kg: number
         year_built: number
+        ShipsQuery:any
     }
 }
 
