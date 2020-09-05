@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "isolatedModules": true,
+    "noImplicitAny": false,
     "target": "es5",
     "lib": [
       "dom",
@@ -15,7 +17,6 @@
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "isolatedModules": true,
     "noEmit": true,
     "jsx": "react"
   },
