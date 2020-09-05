@@ -36,6 +36,7 @@ interface Props {
         stages: number
         success_rate_pct: number
         __typename: string
+        RocketsQuery: any
 }
 
 const Rockets: React.FC<Props> = ({ data }) => {

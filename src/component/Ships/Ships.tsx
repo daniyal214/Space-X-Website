@@ -30,6 +30,7 @@ interface Props {
         ship_type: string
         weight_kg: number
         year_built: number
+        ShipsQuery:any
 }
 
 const Ships: React.FC<Props> = ({ data }) => {

@@ -25,6 +25,8 @@ interface Props {
     mission_id: string[]
     mission_name: string
     upcoming: string
+    LaunchesQuery: any
+    
 }
 
 const Launch: React.FC<Props> = ({ data }) => {

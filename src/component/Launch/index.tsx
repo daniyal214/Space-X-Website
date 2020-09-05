@@ -20,7 +20,5 @@ const LaunchContainer = () => {
         return <div> There was an error</div>
     }
     return  <Launch data={data} />
-    
 }
-
 export default LaunchContainer;
