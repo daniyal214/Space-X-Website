@@ -39,7 +39,7 @@ interface Props {
     }
 }
 
-const RocketDetails: React.FC<Props> = ({ data }) => {
+const RocketDetails: React.FC<any, Props> = ({ data }) => {
     useEffect(() => {
         Aos.init({ duration: 2000 });
       }, []);

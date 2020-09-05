@@ -30,7 +30,7 @@ interface Props {
     
 }
 
-const Launch: React.FC<Props> = ({ data }) => {
+const Launch: React.FC<any, Props> = ({ data }) => {
     useEffect(() => {
         Aos.init({ duration: 2000 });
     }, []);

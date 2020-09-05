@@ -32,7 +32,7 @@ interface Props {
     }
 }
 
-const ShipDetails: React.FC<Props> = ({ data }) => {
+const ShipDetails: React.FC<any, Props> = ({ data }) => {
     useEffect(() => {
         Aos.init({ duration: 2000 });
     }, []);
