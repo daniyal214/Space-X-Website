@@ -22,7 +22,7 @@ function Home() {
         <img src={require('./images/image3.jpg')} alt='wallpaper'  style={{ maxWidth: '100%', maxHeight: '100%' }} />
       </div>
       <Grid container direction='row' spacing={3} alignItems='center' justify='center' >
-        <Card data-aos="fade-up" xs={12} sm={8} md={3} wrap='wrap'
+        <Card data-aos="fade-up" 
           elevation={6} style={{ height: '600', width: '600', margin: '20px', background: '#c5c6c7' }}>
           <CardHeader style={{ color: '#1f2833' }} title='LAUNCHES' subheader='' />
           <CardMedia style={{ height: 0, maxHeight: '100%' }} title='Launches' />
@@ -34,7 +34,7 @@ function Home() {
         </Card>
 
 
-        <Card data-aos="fade-up" xs={12} sm={8} md={3} wrap='wrap'
+        <Card data-aos="fade-up" 
           elevation={6} style={{ height: '600', width: '600', margin: '20px', background: '#c5c6c7' }}>
           <CardHeader style={{ color: '#1f2833' }} title='ROCKETS' subheader='' />
           <CardMedia style={{ height: 0, maxHeight: '100%' }} title='Rockets' />
@@ -45,7 +45,7 @@ function Home() {
           </Link>
         </Card>
 
-        <Card data-aos="fade-up" xs={12} sm={8} md={3} wrap='wrap'
+        <Card data-aos="fade-up" 
           elevation={6} style={{ height: '600', width: '600', margin: '20px', background: '#c5c6c7' }}>
           <CardHeader style={{ color: '#1f2833' }} title='SHIPS' subheader='' />
           <CardMedia style={{ height: 0, maxHeight: '100%' }} title='Ships' />
