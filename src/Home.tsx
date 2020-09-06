@@ -62,7 +62,7 @@ function Home() {
           <Typography color='textPrimary' gutterBottom variant='h3' > <b> Project SpaceX </b> </Typography>
           <Typography color='textPrimary' variant='h4' > Made By: </Typography>
           <Typography color='textPrimary' variant='h4' > <b>Muhammad Daniyal </b></Typography>
-          <Typography color='textPrimary' variant='h4' margin='4%'> <b>Contacts: </b> </Typography>
+          <Typography color='textPrimary' variant='h4' > <b>Contacts: </b> </Typography>
           <Grid container style={{ alignItems: 'center', justifyContent: 'center' }}>
             <Fab style={{ margin: '1%' }} >
               <Button href='https://www.facebook.com/muhammad.daniyal.3557' > <FacebookIcon /> </Button>
