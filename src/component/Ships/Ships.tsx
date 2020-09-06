@@ -25,7 +25,7 @@ const Ships: React.FC<Props> = ({ data }) => {
 
         <Grid container direction='row' spacing={3} alignItems='center' justify='center' >
             {data.ships?.map(ship =>
-                <Grid data-aos="fade-up" containere item component={Card} xs={12} sm={8} md={3} wrap='wrap'
+                <Grid data-aos="fade-up" container item component={Card} xs={12} sm={8} md={3} wrap='wrap'
                     style={{ margin: '2%', maxWidth: '100%', backgroundColor: '#c5c6c7' }} direction='row' >
                     <CardMedia style={{ height: 0, paddingTop: '1%', maxHeight: '100%' }} />
                     {ship?.image ? <img src={ship?.image} alt='ships' style={{ maxWidth: '100%', maxHeight: '30vh', minHeight: '50vh', minWidth: '100%' }} /> : null}
