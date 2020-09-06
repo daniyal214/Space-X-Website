@@ -17,8 +17,8 @@ interface Props {
         image: string[]
         imo: number
         missions: {
-            flight: number[]
-            name: string[]
+            flight: number
+            name: string
         }
         ship_model: string
         ship_name: string
@@ -32,6 +32,8 @@ interface Props {
         ShipsQuery:any
     }
 }
+
+
 
 const ShipDetails: React.FC<Props> = ({ data }) => {
     useEffect(() => {
