@@ -14,7 +14,7 @@ interface Props {
         class: number
         home_port: string
         ship_id: string
-        image: string[]
+        image: string
         imo: number
         missions: any[]
         flight: number
