@@ -21,7 +21,7 @@ function Home() {
       <div>
         <img src={require('./images/image3.jpg')} alt='wallpaper'  style={{ maxWidth: '100%', maxHeight: '100%' }} />
       </div>
-      <Grid container direction='row' spacing={3} alignItems='center' justify='center' margin='2%' >
+      <Grid container direction='row' spacing={3} alignItems='center' justify='center' >
         <Card data-aos="fade-up" container item component={Card} xs={12} sm={8} md={3} wrap='wrap'
           elevation={6} style={{ height: '600', width: '600', margin: '20px', background: '#c5c6c7' }}>
           <CardHeader style={{ color: '#1f2833' }} title='LAUNCHES' subheader='' />
