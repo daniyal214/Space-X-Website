@@ -16,10 +16,10 @@ interface Props {
         ship_id: string
         image: string[]
         imo: number
-        missions: {
-            flight: number
-            name: string
-        }
+        missions: any[]
+        flight: number
+        name: string
+   
         ship_model: string
         ship_name: string
         roles: string[]
